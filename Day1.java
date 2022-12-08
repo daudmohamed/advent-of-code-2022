@@ -32,7 +32,7 @@ public class Day1 {
 
     private static int findTop3ElfsWithMaxCalories() throws IOException{
         List<Integer> list = new ArrayList<>();
-        try(BufferedReader br = new BufferedReader(new FileReader("input-1_1.txt"))) {
+        try(BufferedReader br = new BufferedReader(new FileReader("input_1.txt"))) {
             String line = br.readLine();
             int current = 0;
             while (line != null) {
